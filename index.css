@@ -26,12 +26,10 @@ aside {
 }
 
 #ad-container {
-    border: 2px dashed #ccc;
-    padding: 1rem;
+    border: none;
+    padding: 0;
     min-height: 250px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
     font-style: italic;
     color: #888;
 }
