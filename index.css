@@ -12,25 +12,16 @@ header, footer {
 }
 
 main {
-    display: flex;
     padding: 2rem;
 }
 
 article {
-    flex: 2;
-    margin-right: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-aside {
-    flex: 1;
+@media (max-width: 768px) {
+    main {
+        padding: 1rem;
+    }
 }
-
-#ad-container {
-    border: none;
-    padding: 0;
-    min-height: 250px;
-    display: block;
-    font-style: italic;
-    color: #888;
-}
-
