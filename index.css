@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    display: flex;
+    padding: 2rem;
+}
+
+article {
+    flex: 2;
+    margin-right: 2rem;
+}
+
+aside {
+    flex: 1;
+}
+
+#ad-container {
+    border: 2px dashed #ccc;
+    padding: 1rem;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    color: #888;
+}
+
